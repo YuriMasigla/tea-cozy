@@ -54,6 +54,11 @@ h4 {
     font-weight: bold;
 }
 
+h5 {
+    margin-bottom: 0.15rem;
+    font-weight: bold;
+}
+
 .header {
     background-color: black;
     text-align: center;
@@ -154,6 +159,25 @@ h4 {
 
 .locationitem h2{
     font-weight: normal;
+}
+
+.contact {
+    min-height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.copyright {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 811px) {
+    .copyright {
+        text-align: center;
+    }
 }
 
 #logo {
