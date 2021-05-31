@@ -37,6 +37,29 @@ nav a {
     text-align: center;
 }
 
+h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
 @media only screen and (max-width: 536px) {
     header {
         flex-direction: column;
@@ -52,24 +75,6 @@ nav a {
         height: 25px;
         margin-left: 0;
     }
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-}
-
-h4 {
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-}
-
-.header {
-    background-color: black;
-    text-align: center;
-    width: 100%;
 }
 
 .pageheader {
@@ -113,6 +118,42 @@ h4 {
 .galleryitem h4 {
     text-align: center;
     margin-top: 10px;
+}
+
+.location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
+}
+
+.location .header {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.locgroup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.locationitem {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.locationitem h2{
+    font-weight: normal;
 }
 
 #logo {
